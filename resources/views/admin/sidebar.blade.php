@@ -12,7 +12,7 @@
         <!-- Sidebar user (optional) -->
         <div class="user-panel pb-3 my-3">
             <div class="info">
-                <h5 class="text-white" style="margin: 0;">Reonaldi Saputro</h5>
+                <h5 class="text-white" style="margin: 0;">Ilyas Budi Wahyu Jati</h5>
             </div>
         </div>
 
@@ -52,25 +52,7 @@
                     </a>
                 </li>
 
-                <li class="nav-item">
-                    <a href="{{ '/projectcategory' }}" class="nav-link">
-                        <i class="nav-icon fa-solid fa-border-all"></i>
-                        <p>
-                            Project Categories
-                            <i class="right fas fa-angle-left"></i>
-                        </p>
-                    </a>
-                </li>
 
-                <li class="nav-item">
-                    <a href="{{ '/project' }}" class="nav-link">
-                        <i class="nav-icon fa-solid fa-briefcase"></i>
-                        <p>
-                            Projects
-                            <i class="right fas fa-angle-left"></i>
-                        </p>
-                    </a>
-                </li>
             </ul>
         </nav>
         <!-- /.sidebar-menu -->

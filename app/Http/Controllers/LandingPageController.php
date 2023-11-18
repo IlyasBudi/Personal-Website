@@ -15,13 +15,7 @@ class LandingPageController extends Controller
             ->orderBy('id', 'ASC')
             ->paginate(8);
 
-        $projects = Project::with('category')
-            ->orderBy('id', 'ASC')
-            ->paginate(8);
 
-        $project_categories = ProjectCategory::all();
-
-
-        return view('/landingpage', compact('blogs', 'projects', 'project_categories'));
+        return view('/landingpage', compact('blogs'));
     }
 }
